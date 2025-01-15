@@ -1,2 +1,3 @@
-# midnightshell
-Ghost blog stuff
+# Ghost Midnight Theme
+
+Custom ghost theme for midnightshell.com

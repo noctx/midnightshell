@@ -1,0 +1,24 @@
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-content {
+    flex-grow: 1;
+    padding: 6rem 0;
+}
+
+.page-template .site-content {
+    padding-block: 0;
+}
+
+@media (max-width: 767px) {
+    .site-content {
+        padding: 3rem 0;
+    }
+}
+.gh-canvas {
+    display: grid;
+    grid-template-columns: [full-start] minmax(max(4vmin,20px),auto) [wide-start] minmax(auto,240px) [main-start] min(1200px,calc(100% - max(8vmin, 40px))) [main-end] minmax(auto,240px) [wide-end] minmax(max(4vmin,20px),auto) [full-end];
+}
